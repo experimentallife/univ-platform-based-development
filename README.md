@@ -1,2 +1,2 @@
 # univ-platform-based-development
-University - Platform Based Development - Graphql
+University - Platform Based Development
