@@ -1,0 +1,28 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+mkdocs = "*"
+mkdocstrings = {extras = ["python"], version = "*"}
+mkdocs-material = "*"
+flask = "*"
+flask-cors = "*"
+pyjwt = "*"
+python-dotenv = "*"
+flask-migrate = "*"
+waitress = "*"
+sqlalchemy = "*"
+flask-marshmallow = "*"
+flask-sqlalchemy = "*"
+marshmallow-sqlalchemy = "*"
+werkzeug = "*"
+graphene = "*"
+flask-graphql = "*"
+graphene-sqlalchemy = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
