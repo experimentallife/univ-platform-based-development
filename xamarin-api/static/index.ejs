@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link rel=stylesheet type=text/css href="./index.css">
+  </head>
+
+  <body>
+    <div class="container wrapper">
+      <div class="curriculum">
+        <div class="header">
+          <div class="header__photo">
+            <img
+              src="https://visafoto.com/img/passport-photo-original7.jpg"
+              alt=""
+              class="header__photo-img"
+            />
+          </div>
+          <div class="header__title">
+            <div class="header__heading" property="full_name">
+              <%= full_name %>
+            </div>
+            <div class="header__subheading" property="occupation">
+              <%= occupation %>
+            </div>
+          </div>
+        </div>
+        <div class="main">
+          <div class="aside">
+            <div class="section">
+              <div class="section__title">Contacto</div>
+              <div class="section__content">
+                <div class="item">
+                  <div class="item__icon">
+                    <i class="fa fa-phone" aria-hidden="true"></i>
+                  </div>
+                  <div class="item__title" property="phone"></div>
+                </div>
+                <div class="item">
+                  <div class="item__icon">
+                    <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                  </div>
+                  <div class="item__title" property="email"></div>
+                </div>
+                <div class="item">
+                  <div class="item__icon">
+                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                  </div>
+                  <div class="item__title" property="nationality"></div>
+                </div>
+                <div class="item">
+                  <div class="item__icon">
+                    <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                  </div>
+                  <div class="item__title">linkedln.com/jose-martinez</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="section">
+              <div class="section__title">Idiomas</div>
+              <div class="section__content" property="languages" multiple>
+                <div class="item"></div>
+              </div>
+            </div>
+
+            <div class="section">
+              <div class="section__title">Lenguajes de programacion</div>
+              <div
+                class="section__content"
+                property="programming_languages"
+                multiple
+              >
+                <div class="item"></div>
+              </div>
+            </div>
+
+            <div class="section">
+              <div class="section__title">Aptitudes</div>
+              <div class="section__content">
+                <ul class="list" property="aptitudes" multiple></ul>
+              </div>
+            </div>
+
+            <div class="section">
+              <div class="section__title">Habilidades</div>
+              <div class="section__content">
+                <ul class="list" property="skills" multiple></ul>
+              </div>
+            </div>
+
+            <div class="section">
+              <div class="section__title">Otros intereses</div>
+              <div class="section__content">
+                <ul class="list">
+                  <li class="list__item">Creador de Yincanas</li>
+                  <li class="list__item">Paseos ecologicos grupales</li>
+                  <li class="list__item">Lectura grupal en ingles</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="content">
+            <div class="section">
+              <div class="section__title">Perfil</div>
+              <div class="section__content"><%= profile %></div>
+            </div>
+            <div class="section">
+              <div class="section__title">expericia laboral</div>
+              <div class="section__content">
+                <div class="subsection">
+                  <div class="subsection__heading">Trabajador social</div>
+                  <div class="subsection__subheading">
+                    Mexico DF
+                    <span class="text-date">2022 - Actualmente</span>
+                  </div>
+                  <ul class="list">
+                    <li class="list__item">
+                      Coordinador y medido entre los equipos de ayuda
+                      pedagogicos a jovenes y ninos en inclusoion social
+                    </li>
+                    <li class="list__item">
+                      Velar por la salud mental de l equipo y de miembros
+                      involucrados en proyectos
+                    </li>
+                    <li class="list__item">
+                      Mapeo de necesidades estrategicas y logicas para los
+                      diferentes areas
+                    </li>
+                    <li class="list__item">
+                      Monitor de ejercicios fisicos para adolescentes
+                    </li>
+                    <li class="list__item">
+                      Formar diferente actividades extracurriculares en los
+                      involucrados
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="subsection">
+                  <div class="subsection__heading">Trabajador social</div>
+                  <div class="subsection__subheading">
+                    Mexico DF
+                    <span class="text-date">2020 - 2022</span>
+                  </div>
+                  <ul class="list">
+                    <li class="list__item">
+                      Funciones para seguimiento de cascos para joveenes con
+                      problemas de aficiones
+                    </li>
+                    <li class="list__item">
+                      Capacidad a integracion vinculadas a medidas preventivas
+                    </li>
+                    <li class="list__item">
+                      Recopilacion de evidencias para auditorias y programas
+                      sociales
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="subsection">
+                  <div class="subsection__heading">
+                    Trabajador social (Practicas)
+                  </div>
+                  <div class="subsection__subheading">
+                    Zaragoza, Espana
+                    <span class="text-date">2019 - 2020</span>
+                  </div>
+                  <ul class="list">
+                    <li class="list__item">
+                      Profesor de lengua espanol e inglesa para jovenes
+                      migrantes
+                    </li>
+                    <li class="list__item">
+                      Monitor de actividades ecologicas con adolescentes
+                    </li>
+                    <li class="list__item">Coordinador de areas depotivas</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="section">
+              <div class="section__title">Formacion</div>
+              <div class="section__content">
+                <div class="subsection">
+                  <div class="subsection__heading">Grado de Trabajo Social</div>
+                  <div class="subsection__subheading">
+                    ESMA, Espana
+                    <span class="text-date">2012 - 2015</span>
+                  </div>
+                </div>
+
+                <div class="subsection">
+                  <div class="subsection__heading">
+                    Licenciatura profesional
+                  </div>
+                  <div class="subsection__subheading">
+                    Universidad de las Fronteras, Mexico DF
+                    <span class="text-date">2011 - 2012</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
